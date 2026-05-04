@@ -72,3 +72,21 @@ _tmp_httpd_clean_*/
 _work_httpd_*/
 _tmp_httpd_clean_*/
 _work_httpd_*/
+
+# Sensitive files (never commit)
+.env
+.env.*
+*.p12
+*.pfx
+*.jks
+*.kdb
+*.kdbx
+id_dsa*
+id_ecdsa*
+id_ed25519*
+credentials/
+secret/
+*.secret
+*token*
+*apikey*
+*.ovpn
