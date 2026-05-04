@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Ansible
+*.retry
+*.log
+
+# Sensitive files (never commit!)
+.ssh/
+*.pem
+*.key
+id_rsa*
+ansible_vault.yml
+secrets/
+
+# Build artifacts
+# *.tar.gz  # 수동으로 git add 하여 선택적 추적
+**/04_packages/
+**/05_httpd-build/*.tar.gz
+
+# Local build/test work directories
+**/_work_*/
+**/*local-improved*/
+
+# AWX job logs (runtime artifacts)
+**/03_logs/Error_note/job_*.txt
+
+# Temporary files
+tmp/
+temp/
+.cache/
+*.tar.gz.bak-*
+*.tar.gz.sha256
+_tmp_httpd_clean_*/
+_work_httpd_*/
+_tmp_httpd_clean_*/
+_work_httpd_*/
